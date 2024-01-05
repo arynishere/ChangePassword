@@ -7,7 +7,7 @@
   tasks:
     - name: Include pas File
       include_vars:
-        file: pas.yml
+        file: $filename 
 
     - name: Change SSH Passwords
       user:
