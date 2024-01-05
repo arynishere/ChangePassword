@@ -1,0 +1,16 @@
+---
+- name: CSP
+  hosts: ssh_servers
+  gather_facts: false
+  become: yes
+
+  tasks:
+    - name: Include pas File
+      include_vars:
+        file: pas.yml
+
+    - name: Change SSH Passwords
+      user:
+        name: $username
+        update_password: always
+        password: "{{ new_ssh_password | password_hash('sha512', 'mysecretsalt') }}"
