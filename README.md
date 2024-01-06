@@ -1,6 +1,6 @@
-# Ansible Password Change Script
+# ChangePassword Ansible Playbook
 
-This repository contains a Bash script and an Ansible playbook to facilitate the process of changing SSH passwords on multiple servers.
+This repository contains a Bash script and an Ansible playbook to streamline the process of changing SSH passwords on multiple servers.
 
 ## Prerequisites
 
