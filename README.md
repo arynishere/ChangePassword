@@ -12,7 +12,7 @@ This repository contains a Bash script and an Ansible playbook to facilitate the
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/ansible-password-change.git
+    git clone https://github.com/arynishere/ChangePassword.git
     cd ansible-password-change
     ```
 
