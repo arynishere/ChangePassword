@@ -7,10 +7,10 @@
   tasks:
     - name: Include pas File
       include_vars:
-        file: $filename 
+        file: "{{filename}}"
 
     - name: Change SSH Passwords
       user:
-        name: $username
+        name: "{{username}}"
         update_password: always
         password: "{{ new_ssh_password | password_hash('sha512', 'mysecretsalt') }}"
