@@ -19,7 +19,7 @@ This repository contains a Bash script and an Ansible playbook to streamline the
 2. **Run the Bash script:**
 
     ```bash
-    ./change-password.sh
+    ./chpass.sh
     ```
 
     The script will prompt you for a username and a filename. The filename should contain necessary variables (e.g., `new_ssh_password`, `mysecretsalt`) in YAML format.
