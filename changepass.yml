@@ -1,6 +1,6 @@
 ---
 - name: CSP
-  hosts: ssh_servers
+  hosts: "{{hostname}}"
   gather_facts: false
   become: yes
 
