@@ -22,7 +22,7 @@ This repository contains a Bash script and an Ansible playbook to streamline the
     ./chpass.sh
     ```
 
-    The script will prompt you for a username, a filename, and a hostname. The filename should contain necessary variables (e.g., `new_ssh_password`, `mysecretsalt`, `hostname`) in YAML format.
+    The script will prompt you for a username, a filename, and a hostname. The filename should contain necessary variables (e.g., `new_ssh_password`, `mysecretsalt`,) in YAML format and  `hostname` in txt format
 
 3. **Run the Ansible playbook:**
 
