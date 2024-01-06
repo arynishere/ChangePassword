@@ -26,7 +26,9 @@ This repository contains a Bash script and an Ansible playbook to streamline the
 
 3. **Run the Ansible playbook:**
 
-    ```bash
+run this command in the last line on the script : 
+
+    ``` 
     ansible-playbook -i $hostfile changepass.yml --extra-vars "username=$username filename=$filename hostname=$hostname"
     ```
 
