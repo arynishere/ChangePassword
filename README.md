@@ -30,7 +30,7 @@ This repository contains a Bash script and an Ansible playbook to streamline the
     ansible-playbook -i $hostfile changepass.yml --extra-vars "username=$username filename=$filename hostnamefile=$hostname"
     ```
 
-    Replace `username` with the desired username, `filename` with the filename containing your variables, and `hostnamefile` with the filename containing your hostnames.
+    Replace `username` with the desired username, `filename` with the filename containing your variables, and `hostname` with the filename containing your hostnames.
 
 ## Example variables file (vault.yml)
 
