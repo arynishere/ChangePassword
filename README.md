@@ -22,17 +22,10 @@ This repository contains a Bash script and an Ansible playbook to streamline the
     ./chpass.sh
     ```
 
-    The script will prompt you for a username, a filename, and a hostname. The filename should contain necessary variables (e.g., `new_ssh_password`, `mysecretsalt`,) in YAML format and  `hostname` in txt format
-
-3. **Run the Ansible playbook:**
-
-     run this command in the last line on the script :
-
-    ``` 
-    ansible-playbook -i $hostfile changepass.yml --extra-vars "username=$username filename=$filename hostname=$hostname"
-    ```
-
-    Replace `username` with the desired username, `filename` with the filename containing your variables, and `hostname` with the filename containing your hostnames.
+    The script will prompt you for a username, a filename, and a hostname. The filename should contain necessary variables (e.g., `new_ssh_password`, `mysecretsalt`,) in YAML format and  `hostname` in txt format.
+    <br>
+    
+    now just wait for the script to finish, you can check the script to see how the playbook is deployed.
 
 ## Example variables file (vault.yml)
 
